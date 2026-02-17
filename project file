@@ -1,0 +1,35 @@
+def chatbot():
+  print("Type 'Bye' to exit.\n")
+while True:
+    user_input = input("You:").lower()
+    if user_input in ["hi","hello","hey"]:
+        print("chatbot:Hi there! How can i help you?")
+    elif "how are you" in user_input:
+        print("chatbot:I'm doing great!.hope you are too")
+    elif "your name" in user_input:
+        print("chatbot:I am a simple rule based chatbot")
+    elif "who created you" in user_input:
+        print("chatbot:I was created by a programmer by using python")
+    elif "I have an exam today" in user_input:
+        print("chatbot:Great! stay focused and study well,and wish you all the best!")
+    elif "What do you do" in user_input:
+        print("chatbot:I can help you simple questions")
+    elif "What was the time" in user_input:
+        print("chatbot:I don't have a clock but for you its always a good time")
+    elif "How was the weather" in user_input:
+        print("chatbot:I hope It was pleasant")
+    elif "Your age" in user_input:
+        print("chatbot:Age doesn't apply to me,I was created recently")
+    elif "Your Favorite thing to do" in user_input:
+        print("chatbox:i love you speak with you")
+    elif "Thank you" in user_input or "Thanks" in user_input:
+        print("chatbot:You're welcome,Happy to help you")
+    elif user_input == "bye":
+        print("chatbot:Goodbye!Take care")
+        break
+    else:
+        print("chatbot:I'm sorry but I didn't understand,Try to ask something else")
+    # rum the chatbot
+    chatbot()
+
+
